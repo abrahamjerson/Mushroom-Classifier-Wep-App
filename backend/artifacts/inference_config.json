@@ -1,0 +1,21 @@
+{
+  "model_name": "convnextv2_base.fcmae_ft_in22k_in1k",
+  "image_size": 224,
+  "num_classes": 216,
+  "class_names_file": "class_names.json",
+  "final_model_file": "best_mushroom_classifier_convnextv2_base.pth",
+  "device_used_for_training": "cpu",
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "others_class_name": "others"
+}
