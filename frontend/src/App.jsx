@@ -272,11 +272,9 @@ function App() {
                   <p className="section-label">Top Prediction</p>
                   <h2 className="prediction-title">{primaryPrediction}</h2>
 
-                  if (result.rejection_reason) {
                   <div className="confidence-chip">
                     Confidence: {(result.confidence * 100).toFixed(1)}%
-                  </div>  
-                  }
+                  </div>
 
                   {result.rejection_reason && (
                     <p className="note-text">
