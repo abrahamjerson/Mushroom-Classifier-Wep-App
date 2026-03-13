@@ -12,6 +12,11 @@ import {
 
 const API_URL = import.meta.env.VITE_API_URL;
 
+const response = await fetch(`${API_URL}/classifier/predict`, {
+  method: "POST",
+  body: formData,
+});
+
 function App() {
   const inputRef = useRef(null);
 
